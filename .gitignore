@@ -1,0 +1,78 @@
+# ===========================
+# Node / Next.js
+# ===========================
+
+node_modules/
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# ===========================
+# Python
+# ===========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===========================
+# IDE
+# ===========================
+
+.vscode/
+.idea/
+
+# ===========================
+# Operating System
+# ===========================
+
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Database
+# ===========================
+
+*.db
+*.sqlite3
+
+# ===========================
+# Build
+# ===========================
+
+build/
+dist/
+
+# ===========================
+# Coverage
+# ===========================
+
+.coverage
+coverage/
+htmlcov/
+
+# ===========================
+# Misc
+# ===========================
+
+*.log
